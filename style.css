@@ -9,7 +9,7 @@ body {
     center/cover;
   height: 110vh;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 
@@ -56,13 +56,80 @@ li {
   align-items: center;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 main h1 {
   font-size: 40px;
   margin-top: 40px;
-  text-align: center;
   font-weight: 600;
 }
 
 main a {
+  color: rgb(255, 255, 255, 0.8);
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 20px;
+  margin-top: 290px;
+  font-size: 12px;
+  width: 540px;
+}
+
+.details .heading {
+  font-size: 24px;
+  display: inline;
+}
+
+.details .unitOfMeasurement {
+  font-size: 20px;
+}
+
+.details sup,
+footer sup {
+  font-size: 12px;
+}
+
+.mph img {
+  width: 28px;
+  height: 28px;
+}
+
+.mi-range {
+  text-align: center;
+}
+
+.buttons .btn {
+  width: 235px;
+  padding: 9px 30px;
+  margin-inline: 10px;
+  margin-top: 22px;
+  border: 3px solid #fff;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.buttons .secondary {
+  background-color: transparent;
   color: #fff;
+}
+
+.buttons .secondary:hover {
+  background-color: #fff;
+  color: black;
+}
+
+footer {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 40px;
 }

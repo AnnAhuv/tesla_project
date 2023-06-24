@@ -13,8 +13,8 @@
     <title>Model 3 | Tesla</title>
   </head>
   <body>
-    <div class="container">
-      <div class="navbar">
+    <header class="container">
+      <nav class="navbar">
         <a href="#"><img class="logo" src="img/tesla_logo.svg" alt="logo" /></a>
         <ul class="main_navbar">
           <li><a href="#">Model S</a></li>
@@ -30,14 +30,38 @@
           <li><a href="#">Account</a></li>
           <li><a href="#">Menu</a></li>
         </ul>
-      </div>
-    </div>
+      </nav>
+    </header>
     <main>
       <div class="heading">
         <h1>Model 3</h1>
         <a href="#">Demo Drive</a>
       </div>
-      <div class="details"></div>
+      <div class="details">
+        <div class="mph">
+          <img src="img/svgexport-6.svg" alt="speedometer" />
+          <div class="heading">3.1<span class="unitOfMeasurement">s</span></div>
+          <p>0-60 mph*</p>
+        </div>
+        <div class="mi-range">
+          <div class="heading">
+            333<span class="unitOfMeasurement">mi</span>
+          </div>
+          <p>Range (EPA est.)</p>
+        </div>
+        <div class="price">
+          <div class="heading">$32,740<sup>†</sup></div>
+          <p>After Tax Credit</p>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="btn primary">Explore Inventory</button>
+        <button class="btn secondary">Custom Order</button>
+      </div>
+      <footer>
+        <sup>†</sup>Starting pre-tax price for Model 3 RWD after federal tax credit. <a href="#">Review
+        Eligibility</a>
+      </footer>
     </main>
   </body>
 </html>
