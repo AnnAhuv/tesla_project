@@ -132,6 +132,10 @@ footer sup {
   background-color: #fff;
 }
 
+.buttons .primary:hover {
+  background-color: rgb(226, 227, 227);
+}
+
 .buttons .secondary {
   background-color: transparent;
   color: #fff;
